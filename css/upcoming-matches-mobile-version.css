@@ -1,0 +1,15 @@
+@media only screen and (max-width:777px) {
+    #main .main-section-wrapper .matches {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+
+    #main .main-section-wrapper .matches {
+        max-width: 90%;
+        flex-grow: 1;
+    }
+
+    #main .main-section-wrapper .matches .match {
+        margin: 0 auto;
+    }
+}

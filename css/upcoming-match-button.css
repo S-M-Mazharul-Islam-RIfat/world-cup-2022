@@ -1,0 +1,55 @@
+/* For Large Screen */
+#main .main-section-wrapper .menu-wrapper .menu .menu-items:nth-child(3) {
+    background-color: var(--white);
+}
+
+#main .main-section-wrapper .menu-wrapper .menu .menu-items:nth-child(3) a {
+    color: var(--main-color);
+}
+
+#main .main-section-wrapper .menu-wrapper .menu .menu-items:nth-child(1) {
+    background-color: var(--btn-color);
+}
+
+#main .main-section-wrapper .menu-wrapper .menu .menu-items:nth-child(1) a {
+    color: var(--white);
+}
+
+
+/* For Tab */
+@media only screen and (min-width:768px) and (max-width:992px) {
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(3) {
+        background-color: var(--white);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(3) a {
+        color: var(--main-color);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(1) {
+        background-color: var(--btn-color);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(1) a {
+        color: var(--white);
+    }
+}
+
+/* For Mobile */
+@media only screen and (max-width:777px) {
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(3) {
+        background-color: var(--white);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(3) a {
+        color: var(--main-color);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(1) {
+        background-color: var(--btn-color);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(1) a {
+        color: var(--white);
+    }
+}

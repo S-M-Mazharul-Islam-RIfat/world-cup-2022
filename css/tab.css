@@ -1,0 +1,121 @@
+@media only screen and (min-width:768px) and (max-width:992px) {
+
+    #header .header-wrapper, .main-section-wrapper {
+        max-width: 960px;
+        overflow: hidden;
+    }
+
+
+    /* Header Section Start */
+    #header .header-wrapper .header-info h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #header .header-wrapper .header-text {
+        font-size: 11px;
+    }
+
+    /* Header Section End */
+
+    /* Main Section Start */
+    #main {
+        margin-top: 75px;
+    }
+
+    #main .main-section-wrapper .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+    }
+
+    #main .main-section-wrapper .blogs {
+        max-width: 90%;
+    }
+
+    #main .main-section-wrapper .blogs .blog {
+        margin: 0 auto;
+    }
+
+    #main .main-section-wrapper .menu-wrapper {
+        display: none;
+    }
+
+    /* Tab Mobile Menu Section Start */
+    #main .main-section-wrapper .tab-mobile-menu-wrapper {
+        display: block;
+        width: 89%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        padding: 10px 0;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(3) {
+        background-color: var(--btn-color);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(3) a {
+        color: var(--white);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items a {
+        font-size: 20px;
+        color: var(--main-color);
+        font-weight: 500;
+    }
+
+    /* Tab and Mobile Menu Section End */
+
+    /* Hide Last Three Child and Show a Button Section Start */
+    #main .main-section-wrapper .blogs .blog:nth-child(7), .blog:nth-child(8), .blog:nth-child(9) {
+        display: none;
+    }
+
+    /* Hide Last Three Child and Show a Button Section End */
+
+    /* View All Button Section Start */
+    #main .view-all {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    #main .view-all .btn {
+        width: 20%;
+        padding: 12px 0;
+        background-color: var(--btn-color);
+        border: none;
+        border-radius: 5px;
+    }
+
+    #main .view-all .btn a {
+        color: var(--white);
+    }
+
+    /* View All Button Section End */
+
+    /* Main Section End */
+
+
+
+    /* Footer Section Start */
+    #footer .footer-wrapper .footer-items ul li a {
+        font-size: 11px;
+    }
+
+    /* Footer Section End */
+}

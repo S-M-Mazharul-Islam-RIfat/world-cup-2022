@@ -1,0 +1,180 @@
+@media only screen and (max-width:777px) {
+    #header .header-wrapper, .main-section-wrapper {
+        max-width: 720px;
+        overflow: hidden;
+    }
+
+    /* Header Section Start */
+    #header .header-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        flex-shrink: 1;
+    }
+
+    #header .header-wrapper .header-info {
+        width: 70%;
+        margin: 0 auto;
+        padding: 28px 53px 8px 53px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #header .header-wrapper .header-info h2 {
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+
+    #header .header-wrapper .header-info .header-text {
+        width: 330px;
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #header .header-wrapper .header-info .btn-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 13px;
+    }
+
+    #header .header-wrapper .header-info .btn {
+        padding: 12px 22px;
+    }
+
+    #header .header-wrapper .header-image {
+        margin: 0 auto;
+        padding-left: 44px;
+    }
+
+    /* Header Section End */
+
+    /* Main Section Start */
+    #main {
+        margin-top: 24px;
+    }
+
+    #main .main-section-wrapper .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+
+    #main .main-section-wrapper .blogs {
+        max-width: 90%;
+        flex-grow: 1;
+    }
+
+    #main .main-section-wrapper .blogs .blog {
+        margin: 0 auto;
+    }
+
+    /* Menu Display None Part */
+    #main .main-section-wrapper .menu-wrapper {
+        display: none;
+    }
+
+    /* Tab and Mobile Menu Section Start */
+    #main .main-section-wrapper .tab-mobile-menu-wrapper {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        padding: 10px 0;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(1), .tab-mobile-menu-items:nth-child(2) {
+        margin-bottom: 16px;
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(3) {
+        background-color: var(--btn-color);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items:nth-child(3) a {
+        color: var(--white);
+    }
+
+    #main .main-section-wrapper .tab-mobile-menu-wrapper .tab-menu .tab-mobile-menu-items a {
+        font-size: 20px;
+        color: var(--main-color);
+        font-weight: 500;
+    }
+
+    /* Tab and Mobile Menu Section End */
+
+    /* Main Section End */
+
+    /* Footer Section Start */
+    #footer .footer-wrapper {
+        height: 615px;
+        margin-top: 34px;
+    }
+
+    #footer .footer-wrapper .footer-header h2 {
+        padding-top: 30px;
+    }
+
+    #footer .footer-wrapper .footer-items ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer .footer-wrapper .footer-items ul li {
+        padding: 16px 20px;
+    }
+
+    #footer .footer-wrapper .footer-items ul li a {
+        font-size: 16px;
+    }
+
+    #footer .footer-wrapper .social-icons {
+        margin-left: 4%;
+    }
+
+
+    /* Footer Section End */
+}
+
+/* To adjust the home image and home text in small screen devices  */
+@media only screen and (max-width:520px) {
+    #header .header-wrapper .header-info .header-text {
+        width: 240px;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #header .header-wrapper .header-image {
+        margin-top: -10px;
+    }
+
+    #header .header-wrapper .header-image img {
+        width: 200px;
+    }
+}
